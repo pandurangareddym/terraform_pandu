@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('init) {
+    stage('init') {
           steps {
             sh 'terraform init'
           }
